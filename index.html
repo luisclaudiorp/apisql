@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Api</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sistema Gerenciamento</h1>
+        <form>
+            <div class="col-md-3 position-relative">
+                <label for="n_identificador" class="form-label">Codigo Identificador</label>
+                <input type="text" class="form-control" id="n_identificador">
+                <div class="invalid-tooltip">
+                    Por favor insira seu numero de identificação.
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <button type="button" type="submit" class="btn btn-lg btn-secondary">Consultar</button>
+            </div>
+            <br>
+            <div class="col-md-3 position-relative">
+                <label for="nome" class="form-label">Nome do Socio</label>
+                <input type="text" class="form-control" disabled id="nome">
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" disabled id="estado">
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="classificacao_id" class="form-label">Classificação</label>
+                <input type="text" class="form-control" disabled id="classificacao_id">
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="horario_id" class="form-label">Horario</label>
+                <input type="text" class="form-control" disabled id="horario_id">
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="nivel_id" class="form-label">Nivel</label>
+                <input type="text" class="form-control" disabled id="nivel_id">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="src/main.js"></script>
+
+</html>

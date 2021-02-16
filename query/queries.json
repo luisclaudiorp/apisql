@@ -1,0 +1,4 @@
+{
+    "getData": "SELECT * FROM [SecullumClubeNet].[dbo].[pessoas]",
+    "updateData": "UPDATE [dbo].[user_info] SET password = @newPassword WHERE name = @userName"
+}
